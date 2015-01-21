@@ -89,3 +89,5 @@ if [ "$TERM" = "linux" ]; then
 	echo -en "\e]PFf2f2f2"
 	clear
 fi
+
+cd "$AUTOCD"

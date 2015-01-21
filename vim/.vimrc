@@ -22,3 +22,7 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 
 "Hotkeys
 map <C-n> :NERDTreeToggle<CR>
+
+"Misc
+"Allow saving files when I stupidly forgot to start vim with sudo
+cmap w!! w !sudo tee > /dev/null %

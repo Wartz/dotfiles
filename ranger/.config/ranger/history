@@ -10,3 +10,6 @@ open_with transmission-cli
 cd .wallpapers
 help
 delete
+shell xclip autoexec.cfg
+shell 
+shell ls

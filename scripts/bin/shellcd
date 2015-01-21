@@ -1,0 +1,6 @@
+BUF="$(realpath "$1")
+$(grep -v "$(realpath "$1")" "$ZDIRS")"
+
+echo "$BUF" > "$ZDIRS"
+
+zsh
