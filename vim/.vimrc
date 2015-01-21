@@ -11,7 +11,7 @@ set mouse=a
 
 "NERDtree settings
 "Start NERDtree automatically
-autocmd vimenter * NERDTree
+"autocmd vimenter * NERDTree
 
 "Start NERDtree when vim has no file specifed
 autocmd StdinReadPre * let s:std_in=1
