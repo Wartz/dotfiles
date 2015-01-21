@@ -1,0 +1,12 @@
+open_with 
+open_with 2
+r
+d
+dd
+@
+search ?
+search 
+open_with transmission-cli
+delete
+cd .wallpapers
+help
