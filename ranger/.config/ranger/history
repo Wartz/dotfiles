@@ -7,6 +7,6 @@ dd
 search ?
 search 
 open_with transmission-cli
-delete
 cd .wallpapers
 help
+delete
