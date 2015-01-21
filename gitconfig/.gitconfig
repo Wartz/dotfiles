@@ -1,3 +1,5 @@
 [user]
 	name = Joe Schlimmer
 	email = joseph.schlimmer@gmail.com
+[push]
+	default = simple
