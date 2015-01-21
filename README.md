@@ -14,4 +14,4 @@ stow $FOLDERNAME
 
 Stow will create symlinks to the configs you wish to use in your home directory.
 
-![Alt text](2015-01-21-05:15:39.png "Shot taken Jan 21 2015")
+![Alt text](screenshot.png "Shot taken Jan 21 2015")
