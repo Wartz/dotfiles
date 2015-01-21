@@ -169,7 +169,7 @@ workspace 2 output DVI-D-0
 workspace 3 output DVI-I-1
 
 #Google hangouts windows float
-for_window [class="Google-chrome-stable" title="Hangouts" window_role="pop-up"] floating enable
+#for_window [class="Google-chrome-stable" title="Hangouts" window_role="pop-up"] floating enable
 
 #print screenshot and save to Pictures folder
 bindsym Print exec --no-startup-id maim ~/Pictures/screenshots/$(date +%F-%T).png
@@ -180,6 +180,7 @@ popup_during_fullscreen smart
 exec --no-startup-id i3-msg 'workspace4; exec skype; workspace 1'
 exec dropboxd start
 exec --no-startup-id i3-msg 'workspace4; exec steam; workspace 1'
-exec_always --no-startup-id seq 0 2 | xargs -l1 -I@ compton -CGb -d :0.@
+#exec_always --no-startup-id seq 0 2 | xargs -l1 -I@ compton -CGb -d :0.@
+exec_always compton -CGb -d :0
 exec_always thunar --daemon
 exec --no-startup-id fehbg.sh & 
