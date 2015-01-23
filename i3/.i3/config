@@ -171,6 +171,11 @@ workspace 3 output DVI-I-1
 #Google hangouts windows float
 #for_window [class="Google-chrome-stable" title="Hangouts" window_role="pop-up"] floating enable
 
+#Vertical borders
+hide_edge_borders vertical
+new_window 1pixel
+new_float normal
+
 #print screenshot and save to Pictures folder
 bindsym Print exec --no-startup-id maim ~/Pictures/screenshots/$(date +%F-%T).png
 

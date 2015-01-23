@@ -3,3 +3,5 @@
 	email = joseph.schlimmer@gmail.com
 [push]
 	default = simple
+[core]
+	excludesfile = /home/joe/.gitignore

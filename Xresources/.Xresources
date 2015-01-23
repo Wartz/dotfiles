@@ -34,3 +34,10 @@ URxvt*cursorColor:        #ff8939
 URxvt*cursorColor2:       #151515
 
 URxvt.font: xft:inconsolata-g
+
+!Scrollbar
+URxvt.scrollBar: false
+
+!Transparency
+URxvt.depth: 32
+URxvt.background: [95]#000000
