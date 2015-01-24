@@ -1,0 +1,23 @@
+#Vim swap files
+*.swp
+
+#binaries
+*.com
+*.clas
+*.dll
+*.exe
+*.o
+*.so
+
+#archives
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+#logs
+*.log
