@@ -54,7 +54,7 @@ alias codepad='wgetpaste -C'
 alias cuvpn='sudo openconnect cuvpn.clemson.edu'
 alias cpanm='cpanm --notest'
 alias music='cmus'
-
+alias screenshot='maim'
 
 #Help command
 autoload -U run-help
