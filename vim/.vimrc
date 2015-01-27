@@ -26,3 +26,5 @@ map <C-n> :NERDTreeToggle<CR>
 "Misc
 "Allow saving files when I stupidly forgot to start vim with sudo
 cmap w!! w !sudo tee > /dev/null %
+
+set t_Co=256

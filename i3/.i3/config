@@ -32,6 +32,11 @@ bindsym $mod+Return exec i3-sensible-terminal
 # start Google-Chrome
 bindsym $mod+c exec google-chrome-stable
 
+#start dwb
+#bindsym $mod+b exec dwb
+#start qutebrowser
+#bindsym $mod+b exec qutebrowser
+
 # Start thunar file manager
 bindsym $mod+t exec thunar
 
@@ -157,10 +162,10 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3status
-	mode hide
-	hidden_state hide
-	modifier Mod1
-	font pango:
+#	mode hide
+#	hidden_state hide
+#	modifier Mod1
+	font pango:Prelude Bold, FontAwesome 9
 }
  
 #rearranging workspace numbers
