@@ -1,4 +1,6 @@
 *.swp
+*.jar
 
 ranger/.config/ranger/bookmarks
 ranger/.config/ranger/history
+irssi/.irssi/config
