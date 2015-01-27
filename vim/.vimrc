@@ -27,4 +27,5 @@ map <C-n> :NERDTreeToggle<CR>
 "Allow saving files when I stupidly forgot to start vim with sudo
 cmap w!! w !sudo tee > /dev/null %
 
+"Fix vim colors in tmux
 set t_Co=256
