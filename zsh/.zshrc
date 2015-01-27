@@ -55,6 +55,7 @@ alias cuvpn='sudo openconnect cuvpn.clemson.edu'
 alias cpanm='cpanm --notest'
 alias music='cmus'
 alias screenshot='maim'
+alias podcast='greg'
 
 #Help command
 autoload -U run-help
