@@ -5,7 +5,6 @@ filetype plugin indent on
 syntax on
 
 colorscheme desert
-set bg=dark
 set number
 set mouse=a
 
