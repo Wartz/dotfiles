@@ -4,7 +4,7 @@ execute pathogen#helptags()
 filetype plugin indent on
 syntax on
 
-colorscheme gruvbox
+colorscheme desert
 set bg=dark
 set number
 set mouse=a
@@ -22,6 +22,8 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 
 "Hotkeys
 map <C-n> :NERDTreeToggle<CR>
+nnoremap <silent> <F9> :TagbarToggle<CR>
+
 
 "Misc
 "Allow saving files when I stupidly forgot to start vim with sudo
@@ -29,3 +31,8 @@ cmap w!! w !sudo tee > /dev/null %
 
 "Fix vim colors in tmux
 set t_Co=256
+
+"Airline
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'

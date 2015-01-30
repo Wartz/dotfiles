@@ -194,4 +194,4 @@ exec --no-startup-id i3-msg 'workspace3; exec STEAM_FRAME_FORCE_CLOSE=1 steam; w
 exec_always compton -CGb
 exec_always thunar --daemon
 exec_always --no-startup-id redshift
-exec --no-startup-id fehbg.sh & 
+exec_always --no-startup-id feh --bg-scale ~/.wallpapers/mars.jpg

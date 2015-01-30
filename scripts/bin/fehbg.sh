@@ -3,4 +3,6 @@
 
 #feh  --bg-scale '/home/joe/.wallpapers/oscar.jpg' '/home/joe/.wallpapers/white.png' '/home/joe/.wallpapers/white.png' 
 
-feh --bg-scale /home/joe/.wallpapers/cloud9.png
+#feh --bg-scale /home/joe/.wallpapers/cloud9.png
+#
+zsh .fehbg &

@@ -86,8 +86,8 @@ if [ "$TERM" = "linux" ]; then
 	echo -en "\e]PDdb588c"
     	echo -en "\e]P66d878d"
         echo -en "\e]PE42717b"
-	echo -en "\e]P7dedede"
-	echo -en "\e]PFf2f2f2"
+	echo -en "\e]P7dddddd"
+	echo -en "\e]PFdddddd"
 	clear
 fi
 
