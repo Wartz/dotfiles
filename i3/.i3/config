@@ -166,6 +166,11 @@ bar {
 #	hidden_state hide
 #	modifier Mod1
 	font pango:Prelude Bold, FontAwesome 9
+	colors {
+	#	background #8a5f3f
+		background #372014
+		focused_workspace #993300 #5C1F00 #ffffff
+	}
 }
  
 #rearranging workspace numbers
@@ -194,4 +199,5 @@ exec --no-startup-id i3-msg 'workspace3; exec STEAM_FRAME_FORCE_CLOSE=1 steam; w
 exec_always compton -CGb
 exec_always thunar --daemon
 exec_always --no-startup-id redshift
-exec_always --no-startup-id feh --bg-scale ~/.wallpapers/mars.jpg
+#exec_always --no-startup-id feh --bg-scale ~/.wallpapers/mars.jpg
+exec_always ~/.fehbg &
