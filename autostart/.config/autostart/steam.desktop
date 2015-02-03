@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Steam
 Comment=Application for managing and playing games on Steam
-Exec=/usr/bin/steam %U
+Exec=sh -c 'STEAM_FRAME_FORCE_CLOSE=1 /usr/bin/steam' %U
 Icon=steam
 Terminal=false
 Type=Application
