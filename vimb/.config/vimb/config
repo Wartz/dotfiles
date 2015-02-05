@@ -1,0 +1,14 @@
+set home-page=http://www.google.com
+set download-path=~/Downloads
+set cookie-accept=always
+set cookie-expire-time=-1
+set accelerated-compositing=false
+set fontsize=11
+set html5-database=true
+set html5-local-storage=true
+set javascript-can-access-clipboard=true
+set offlinecache=true
+set pagecache=true
+set webgl=true
+set webinspector=true
+set useragent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
