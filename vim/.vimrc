@@ -37,3 +37,7 @@ set t_Co=256
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
+
+"Pymode
+let g:pymode = 1
+let g:pymode_python = 'python'
