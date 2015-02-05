@@ -48,14 +48,12 @@ tabopen 127.0.0.1:4000
 tabopen reddit.com
 tabopen reddit.com/r/running
 set accelerated-compositing
-tabopen facebook.com
 open reddit.com/r/globaloffensive
 open http://www.reddit.com/r/globaloffensive
 open kerbalspaceprogram
 open reddit.com/r/php
 open http://www.reddit.com/r/baseball
 tabopen fake chrome browser
-set useragent
 tabopen google chrome useragent
 tabopen inbox.google.com
 tabopen https://inbox.google.com/
@@ -73,3 +71,12 @@ tabopen webkit browser bitbucket freeze
 open reddit.com
 q
 open http://en.wikipedia.org/wiki/Nudity_in_film
+open inbox.com
+open inbox.google.com
+tabopen vimb useragent
+set useragent
+set useragent=
+open facebook.com
+tabopen vimb autocmd
+tabopen facebook.com
+tabopen inbox.google.com

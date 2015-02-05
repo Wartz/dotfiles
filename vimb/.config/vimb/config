@@ -12,3 +12,4 @@ set pagecache=true
 set webgl=true
 set webinspector=true
 set useragent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
+au LoadFinished https://www.facebook.com/* set useragent=foo
