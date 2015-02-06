@@ -1,7 +1,6 @@
 e yankees.com
 o yankees.com
 open yankees.com
-open msnbc.com
 open google.com
 open weather.com
 open twitch.tv
@@ -55,7 +54,6 @@ open reddit.com/r/php
 open http://www.reddit.com/r/baseball
 tabopen fake chrome browser
 tabopen google chrome useragent
-tabopen inbox.google.com
 tabopen https://inbox.google.com/
 tabopen reddit.com/r/spac
 open http://www.reddit.com/r/space
@@ -68,15 +66,42 @@ tabopen run steam game from command-line
 tabopen reddit.com/r/starbound
 tabopen reddit.com/r/linux
 tabopen webkit browser bitbucket freeze
-open reddit.com
-q
 open http://en.wikipedia.org/wiki/Nudity_in_film
 open inbox.com
-open inbox.google.com
 tabopen vimb useragent
 set useragent
 set useragent=
 open facebook.com
 tabopen vimb autocmd
-tabopen facebook.com
+tabopen github.com
+tabopen github compare merge forks
+tabopen zeven IS-3
+tabopen VK3601 H
+tabopen world of tanks dpm calculator
+tabopen noobmeter.com
+tabopen KV-4 weak spots
+open reddit.com/r/worldoftanks
+tabopen reddit.com/r/globaloffensive
+open reddit.com/r/kerbalspaceprogram
+open kickass.se
+open kickass.so
+open https://fanglingsu.github.io/vimb/man.html#SETTINGS
+q
+open reddit.com
 tabopen inbox.google.com
+open msnbc.com
+open nbc.com
+open google news
+tabopen john lester
+tabopen max scherzer
+open james shields
+tabopen reddit.com/r/archlinux
+open reddit.com/r/baseball
+tabopen facebook.com
+tabopen la times
+open inbox.google.com
+open reddit.com/r/learnprogramming
+tabopen bash programming guide
+tabopen bash test
+tabopen bash current folder
+tabopen iterate

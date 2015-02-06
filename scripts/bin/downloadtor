@@ -1,0 +1,22 @@
+#!/bin/bash
+
+#clear
+clear
+
+#arguments
+#switches between single and multi-torrent mode
+if [[ $@ != *\.torrent* ]]
+then
+	FILES=$@/*
+else
+	FILES=$@
+fi
+
+#iterate through torrents
+for i in $FILES
+do
+	if [[ "$i" == *\.torrent* ]]
+	then
+		transmission-cli $i
+	fi
+done
