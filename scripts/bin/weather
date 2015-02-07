@@ -4,11 +4,27 @@ from urllib.parse import urlencode
 from urllib.request import urlopen
 import json
 
-ny = 12762627
 
-baseurl = "https://query.yahooapis.com/v1/public/yql?"
-yql_query = "select item.condition.temp from weather.forecast where woeid=12762627"
-yql_url = baseurl + urlencode({'q': yql_query}) + "&format=json"
-result = urlopen(yql_url).read().decode('utf-8')
-data = json.loads(result)
-print (data['query']['results']['channel']['item']['condition']['temp']+'F')
+def get_weather(weather_data=''):
+    """Docstring
+
+
+    """
+
+    mywoeid = "12762627"
+    baseurl = "https://query.yahooapis.com/v1/public/yql?"
+
+    yql_query = (
+        "select item.condition.temp \
+        from weather.forecast where woeid=" + mywoeid)
+
+    yql_url = baseurl + urlencode({'q': yql_query}) + "&format=json"
+    result = urlopen(yql_url).read().decode('utf-8')
+    data = json.loads(result)
+
+    weather_data = (
+        data['query']['results']['channel']['item']['condition']['temp']+'F')
+    return weather_data
+
+if __name__ == '__main__':
+    print(get_weather())

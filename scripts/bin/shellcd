@@ -1,6 +1,4 @@
-BUF="$(realpath "$1")
-$(grep -v "$(realpath "$1")" "$ZDIRS")"
+#!/bin/bash
+export AUTOCD="$(realpath "$1")"
 
-echo "$BUF" > "$ZDIRS"
-
-zsh
+$SHELL
