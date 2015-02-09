@@ -29,6 +29,9 @@ nnoremap <silent> <F9> :TagbarToggle<CR>
 "Misc
 "Allow saving files when I stupidly forgot to start vim with sudo
 cmap w!! w !sudo tee > /dev/null %
+"Spellcheck
+nn <f7> :setlocal spell! spelllang=en_us<CR>
+imap <f7> <C-o>:setlocal spell! spelllang=en_us<CR>
 
 "Fix vim colors in tmux
 set t_Co=256
