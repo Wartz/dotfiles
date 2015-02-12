@@ -44,3 +44,7 @@ let g:airline#extensions#tabline#left_alt_sep = '|'
 "Pymode
 let g:pymode = 1
 let g:pymode_python = 'python'
+
+"tabs and spaces
+set tabstop=2 noexpandtab
+set tabstop=4 expandtab
