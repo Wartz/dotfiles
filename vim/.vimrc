@@ -48,3 +48,9 @@ let g:pymode_python = 'python'
 "tabs and spaces
 set tabstop=2 noexpandtab
 set tabstop=4 expandtab
+
+"stop up down left right habit
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
