@@ -5,3 +5,5 @@
 	default = simple
 [core]
 	excludesfile = /home/joe/.gitignore
+[credential]
+	helper = cache

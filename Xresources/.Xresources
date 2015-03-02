@@ -1,45 +1,49 @@
 ! special
-URxvt*foreground:   #34302d
-URxvt*background:   #f5e7de
-URxvt*cursorColor:  #34302d
-URxvt*colorUL:      #4682B4
-URxvt*highlightColor: #b23636
-URxvt*highlightTextColor: #ffffff
+!URxvt*foreground:   #34302d
+!URxvt*background:   #f5e7de
+!URxvt*cursorColor:  #34302d
+URxvt*background: [70]#0e0e0e
+URxvt*foreground: #ffffff
+URxvt*cursorColor: #a0783e
+!URxvt*colorUL:      #4682B4
+!URxvt*.colorUL: #a0783e
+URxvt.highlightColor: #b23636
+URxvt.highlightTextColor: #ffffff
 
 
 ! URxvt.cursorColor: S_basel
 
-! black
-*.color0:       #666661
-*.color8:       #7f7f7a
-
-! red
-*.color1:       #992e2e
-*.color9:       #b23636
-
-! green
-*.color2:       #4c3226
-*.color10:      #664233
-
-! yellow
-*.color3:       #a67c53
-*.color11:      #bf8f60
-
-! blue
-*.color4:       #4c7399
-*.color12:      #5986b2
-
-! magenta
-*.color5:       #bf9986
-*.color13:      #d9ae98
-
-! cyan
-*.color6:       #d97742
-*.color14:      #f2854a
-
-! white
-*.color7:       #34302d
-*.color15:      #4c4742
+!! black
+!*.color0:       #666661
+!*.color8:       #7f7f7a
+!
+!! red
+!*.color1:       #992e2e
+!*.color9:       #b23636
+!
+!! green
+!*.color2:       #4c3226
+!*.color10:      #664233
+!
+!! yellow
+!*.color3:       #a67c53
+!*.color11:      #bf8f60
+!
+!! blue
+!*.color4:       #4c7399
+!*.color12:      #5986b2
+!
+!! magenta
+!*.color5:       #bf9986
+!*.color13:      #d9ae98
+!
+!! cyan
+!*.color6:       #d97742
+!*.color14:      #f2854a
+!
+!! white
+!*.color7:       #34302d
+!*.color15:      #4c4742
 
 
 URxvt.font: xft:inconsolata-g
@@ -53,3 +57,30 @@ URxvt.url-launcher: /usr/bin/vimb
 URxvt.matcher.button: 1
 URxvt.url-select.launcher: /usr/bin/vimb
 URxvt.url-select.underline: true
+
+! black
+URxvt*.color0: #201e17
+URxvt*.color8: #805c35
+! red
+URxvt*.color1: #9cac95
+URxvt*.color9: #c8b682
+! green
+URxvt*.color2: #a0723f
+URxvt*.color10: #deebd7
+! yellow
+URxvt*.color3: #a8c3af
+URxvt*.color11: #c89358
+! blue
+URxvt*.color4: #a08152
+URxvt*.color12: #c8934e
+! magenta
+URxvt*.color5: #bab795
+URxvt*.color13: #c89051
+! cyan
+URxvt*.color6: #a08f65
+URxvt*.color14: #c8af78
+! white
+URxvt*.color7: #a0783e
+URxvt*.color15: #c3d5be
+! underline when default
+URxvt*.colorUL: #a0783e
