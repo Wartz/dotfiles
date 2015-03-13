@@ -1,7 +1,7 @@
 #!/bin/bash
 
-if [ $# -gt 0 ] ; then
-	ls $1 > $1/playlist
+if [ "$#" -gt 0 ] ; then
+        find "$1" -maxdepth 1 -type f -iregex ".*\.\(aac\|flac\|mp3\|ogg\|wav\|mp4\|mkv\|avi\)$" > "$1"/playlist
 else
 	echo "Please provide a foldername";
 fi

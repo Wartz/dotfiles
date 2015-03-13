@@ -57,6 +57,10 @@ bindsym $mod+Shift+q kill
 bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 bindsym $mod+shift+d exec dmenu_run
 
+# scratchpad control
+bindsym $mod+Shift+minus move scratchpad
+bindsym $mod+minus scratchpad show
+
 # change focus
 bindsym $mod+h focus left
 bindsym $mod+j focus down
