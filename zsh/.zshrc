@@ -56,6 +56,7 @@ alias cpanm='cpanm --notest'
 alias music='cmus'
 alias screenshot='maim'
 alias podcast='greg'
+alias paint='pinta'
 
 #Help command
 autoload -U run-help
