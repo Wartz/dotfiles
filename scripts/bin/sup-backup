@@ -1,0 +1,9 @@
+#! /bin/bash
+
+# Make a backup of the sup index
+
+date=$(date "+%Y%m%d")
+
+echo -n "dumping to: ~/.backup/sup/sup-index-${date}.xz.."
+sup-dump | xz > "/${HOME}/.backup/sup/sup-index-${date}.xz"
+echo done
