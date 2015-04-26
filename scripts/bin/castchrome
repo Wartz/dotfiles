@@ -1,0 +1,4 @@
+#!/bin/bash
+FILENAME=("$@")
+
+castnow --device toaoclan $FILENAME --tomp4 --fmpeg-preset ultrafast

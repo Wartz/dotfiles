@@ -57,6 +57,7 @@ alias music='cmus'
 alias screenshot='maim'
 alias podcast='greg'
 alias paint='pinta'
+alias youtube='mpsyt'
 
 #Help command
 autoload -U run-help

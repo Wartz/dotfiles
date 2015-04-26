@@ -5,6 +5,7 @@ execute pathogen#helptags()
 filetype plugin indent on
 syntax on
 
+"Colors
 colorscheme desert
 set background=light
 set number
@@ -66,3 +67,6 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
+" When saving, make :W work like :w
+cnoreabbrev <expr> W ((getcmdtype() is# ':' && getcmdline() is# 'W')?('w'):('W'))
