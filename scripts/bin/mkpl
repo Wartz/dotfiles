@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 if [ "$#" -gt 0 ] ; then
         find "$1" -maxdepth 1 -type f -iregex ".*\.\(aac\|flac\|mp3\|ogg\|wav\|mp4\|mkv\|avi\)$" > "$1"/playlist

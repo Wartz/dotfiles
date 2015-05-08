@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 export AUTOCD="$(realpath "$1")"
 
 $SHELL
