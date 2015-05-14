@@ -46,7 +46,8 @@ URxvt.highlightTextColor: #ffffff
 !*.color15:      #4c4742
 
 
-URxvt.font: xft:inconsolata-g
+!!URxvt.font: xft:inconsolata-g
+URxvt.font: xft:Tamsyn:size=16
 URxvt.scrollBar: false
 
 URxvt.depth: 0
