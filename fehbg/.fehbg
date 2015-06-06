@@ -1,1 +1,2 @@
+#!/bin/sh
 feh --bg-tile '/home/joe/Pictures/mars/VKiGcNY.jpg' 

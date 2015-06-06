@@ -190,8 +190,14 @@ workspace 1 output HDMI-0
 workspace 2 output DVI-D-0
 workspace 3 output DVI-I-1
 
-#Google hangouts windows float
-#for_window [class="Google-chrome-stable" title="Hangouts" window_role="pop-up"] floating enable
+#Floating windows
+for_window [title="Hangouts"] move container to workspace 4
+for_window [window_role="pop-up"] floating enable
+for_window [title="File Operation Progress"] floating enable
+for_window [title="tast_dialog"] floating enable
+
+#Tab out vimb windows
+for_window [class="Vimb"] focus child, layout stacking, focus
 
 #Vertical borders
 hide_edge_borders vertical
@@ -211,6 +217,6 @@ exec_always --no-startup-id dropbox &
 #exec_always --no-startup-id seq 0 2 | xargs -l1 -I@ compton -CGb -d :0.@
 exec_always compton -CGb
 exec_always thunar --daemon
-exec --no-startup-id redshift &
+#exec --no-startup-id redshift &
 #exec_always --no-startup-id feh --bg-scale ~/.wallpapers/mars.jpg
 exec_always ~/.fehbg &
