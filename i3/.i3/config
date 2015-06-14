@@ -197,7 +197,7 @@ for_window [title="File Operation Progress"] floating enable
 for_window [title="tast_dialog"] floating enable
 
 #Tab out vimb windows
-for_window [class="Vimb"] focus child, layout stacking, focus
+for_window [class="Vimb"] focus child, layout tabbed, focus
 
 #Vertical borders
 hide_edge_borders vertical
