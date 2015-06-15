@@ -55,9 +55,9 @@ bindsym $mod+Shift+q kill
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
-bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+bindsym $mod+d exec --no-startup-id j4-dmenu-desktop
 #bindsym $mod+d exec --no-startup-id lighthouse | sh
-bindsym $mod+shift+d --no-startup-id exec dmenu_run
+bindsym $mod+shift+d exec --no-startup-id exec dmenu_run
 
 # scratchpad control
 bindsym $mod+Shift+minus move scratchpad
