@@ -191,7 +191,7 @@ workspace 2 output DVI-D-0
 workspace 3 output DVI-I-1
 
 #Floating windows
-for_window [title="Hangouts"] move container to workspace 4
+#for_window [title="Hangouts"] move container to workspace 4
 for_window [window_role="pop-up"] floating enable
 for_window [title="File Operation Progress"] floating enable
 for_window [title="tast_dialog"] floating enable

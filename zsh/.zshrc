@@ -19,6 +19,10 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 
 setopt HIST_IGNORE_DUPS
 
+# Base16 Shell
+BASE16_SHELL="$HOME/.config/base16-shell/base16-bespin.dark.sh"
+[[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
+
 #alias ls='gnuls -hF --color=auto'
 alias ls='ls -hF --color=auto'
 alias ll='ls -l'
@@ -86,8 +90,8 @@ if [ "$TERM" = "linux" ]; then
 	echo -en "\e]PC60aae6"
 	echo -en "\e]P5cc2f6e"
 	echo -en "\e]PDdb588c"
-    	echo -en "\e]P66d878d"
-        echo -en "\e]PE42717b"
+   	echo -en "\e]P66d878d"
+    echo -en "\e]PE42717b"
 	echo -en "\e]P7dddddd"
 	echo -en "\e]PFdddddd"
 	clear
