@@ -23,7 +23,6 @@ setopt HIST_IGNORE_DUPS
 BASE16_SHELL="$HOME/.config/base16-shell/base16-bespin.dark.sh"
 [[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
 
-#alias ls='gnuls -hF --color=auto'
 alias ls='ls -hF --color=auto'
 alias ll='ls -l'
 alias la='ll -A'
