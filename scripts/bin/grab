@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
 maim -s ~/temp/temp.png;imgur ~/temp/temp.png
+#xclip -selection clipboard

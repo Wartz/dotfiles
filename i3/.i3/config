@@ -87,6 +87,9 @@ bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
+# jump to urgent window
+bindsym $mod+x [urgent=latest] focus
+
 # split in horizontal orientation
 bindsym $mod+b split h
 
