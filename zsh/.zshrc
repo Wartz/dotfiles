@@ -74,7 +74,7 @@ alias help=run-help
 export PATH=$PATH:~/.gem/ruby/2.2.0/bin:/home/joe/bin
 export VISUAL=vim
 export EDITOR=vim
-export BROWSER=google-chrome-stable
+export BROWSER=chromium
 
 if [ "$TERM" = "linux" ]; then
 	echo -en "\e]P0222222"
