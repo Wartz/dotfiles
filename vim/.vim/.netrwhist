@@ -1,11 +1,4 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/etc/modprobe.d'
-let g:netrw_dirhist_2='/home/joe/.config/autostart'
-let g:netrw_dirhist_3='/home/joe/.config'
-let g:netrw_dirhist_4='/home/joe/.config/autostart'
-let g:netrw_dirhist_5='/home/joe/.config/pulse'
-let g:netrw_dirhist_6='/home/joe'
-let g:netrw_dirhist_7='/home/joe/.config'
-let g:netrw_dirhist_8='/home/joe/.config/pulse'
-let g:netrw_dirhist_9='/etc/pulse'
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/home/joe/Documents'
+let g:netrw_dirhist_2='/home/joe/Projects/Wartz.github.io/_includes/css'

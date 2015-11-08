@@ -2,6 +2,12 @@ filetype off
 execute pathogen#infect()
 execute pathogen#helptags()
 
+call plug#begin('~/.vim/plugged')
+
+Plug 'scrooloose/syntastic/'
+
+call plug#end()
+
 filetype plugin indent on
 syntax on
 
@@ -16,14 +22,14 @@ set mouse=a
 "autocmd vimenter * NERDTree
 
 "Start NERDtree when vim has no file specifed
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+"autocmd StdinReadPre * let s:std_in=1
+"autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 "Makes vim close if NERDtree is the only pane open
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+"autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
 "Hotkeys
-map <C-n> :NERDTreeToggle<CR>
+"map <C-n> :NERDTreeToggle<CR>
 nnoremap <silent> <F9> :TagbarToggle<CR>
 
 
@@ -44,8 +50,6 @@ let g:airline#extensions#tabline#left_alt_sep = '|'
 let g:airline_powerline_fonts = 1
 
 "Pymode
-let g:pymode = 1
-let g:pymode_python = 'python'
 
 "tabs and spaces
 set tabstop=2 noexpandtab

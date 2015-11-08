@@ -47,6 +47,8 @@ bindsym $mod+Mod1+v exec vimb
 # Start thunar file manager
 bindsym $mod+t exec thunar
 
+bindsym $mod+g exec grab
+
 # kill focused window
 bindsym $mod+Shift+q kill
 

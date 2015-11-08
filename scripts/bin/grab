@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
 
-maim -s ~/temp/temp.png;imgur ~/temp/temp.png
+d=$(date +%F-%T)
+s=$(/home/joe/Pictures/screenshots/)
+
+maim -s $s$d.png
+imgur $s$d.png
 #xclip -selection clipboard
