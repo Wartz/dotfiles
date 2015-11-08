@@ -5,4 +5,3 @@ s=$(/home/joe/Pictures/screenshots/)
 
 maim -s $s$d.png
 imgur $s$d.png
-#xclip -selection clipboard
