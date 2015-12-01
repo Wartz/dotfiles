@@ -236,7 +236,7 @@ bindsym Print exec --no-startup-id maim ~/Pictures/screenshots/$(date +%F-%T).pn
 #mouse_warping none
 popup_during_fullscreen smart
 
-#exec_always --no-startup-id i3-msg 'workspace 3; exec skype; workspace 1'
+exec_always --no-startup-id i3-msg 'workspace 3; exec skype; workspace 1'
 exec_always --no-startup-id dropbox &
 exec_always --no-startup-id i3-msg 'workspace 3; exec pidgin; workspace 1'
 #exec --no-startup-id i3-msg 'workspace3; exec STEAM_FRAME_FORCE_CLOSE=1 steam; workspace 1'
