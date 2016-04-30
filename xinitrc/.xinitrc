@@ -7,10 +7,15 @@ if [ -d /etc/X12/xinit/xinitrc.d ]; then
   unset f
 fi
 
-[[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
 
 
-export BROWSER=chromium
+export BROWSER=firefox
 
-xrandr --output HDMI-0 --auto --output DVI-D-0 --auto --right-of HDMI-0 --output DVI-I-1 --auto --right-of DVI-D-0
-exec i3
+gsettings-data-convert &
+xdg-user-dirs-gtk-update &
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+/usr/lib/gnome-settings-daemon/gnome-settings-daemon &
+/usr/lib/gnome-user-share/gnome-user-share &
+eval $(gnome-keyring-daemon --start --components=pkcs11,secrets,ssh,gpg)
+export GNOME_KEYRING_CONTROL GNOME_KEYRING_PID GPG_AGENT_INFO SSH_AUTH_SOCK
+exec cerbere

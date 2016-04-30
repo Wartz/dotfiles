@@ -1,4 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/home/joe/Documents'
 let g:netrw_dirhist_2='/home/joe/Projects/Wartz.github.io/_includes/css'
+let g:netrw_dirhist_3='/etc/netctl/interfaces'
+let g:netrw_dirhist_4='/home/joe/.offlineimap'
+let g:netrw_dirhist_5='/etc/systemd/network'
+let g:netrw_dirhist_6='/etc/netctl/interfaces'
+let g:netrw_dirhist_7='/etc/netctl'
+let g:netrw_dirhist_8='/etc/netctl/hooks'

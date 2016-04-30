@@ -62,6 +62,7 @@ alias screenshot='maim'
 alias podcast='greg'
 alias paint='pinta'
 alias youtube='mpsyt'
+alias copy='xclip -sel clip'
 
 #Help command
 autoload -U run-help
@@ -75,7 +76,7 @@ alias help=run-help
 export PATH=$PATH:~/.gem/ruby/2.2.0/bin:/home/joe/bin
 export VISUAL=vim
 export EDITOR=vim
-export BROWSER=chromium
+export BROWSER=firefox
 
 if [ "$TERM" = "linux" ]; then
 	echo -en "\e]P0222222"
